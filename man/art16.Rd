@@ -4,7 +4,13 @@
 \name{art16}
 \alias{art16}
 \title{Article 16}
-\format{A dataset with 7605 rows and 4 columns.}
+\format{A dataset with 7605 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art16
 }
@@ -12,7 +18,7 @@ art16
 Article 16
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 3.3.2.1 - Sales of tobacco products to minors prohibited (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=4423}{website})
 \item 3.3.2.1 - Minimum age for purchasing tobacco products (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=4496}{website})

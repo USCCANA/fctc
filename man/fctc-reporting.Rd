@@ -4,15 +4,24 @@
 \alias{fctc-reporting}
 \title{Reporting instrument}
 \description{
-Reporting instrument
+The implementation data presented in this R package was downloaded from the
+\href{http://apps.who.int/fctc/implementation/database/}{WHO FCTC Implementation Database}.
+That website itself provides public access to the
+implementation data that the WHO has collected by each party members' self
+reports.
 }
 \details{
+The reporting instrument is included in this R package as a vignette and can
+be viewed by entering the following command on the console\preformatted{vignettes("en_core_questionnaire_v2016", package="fctc")
+}
+
 The following documents are included as vignettes in the package:
 \itemize{
 \item Additional Questions on the Use of Implementation Guidelines by the Parties
 (Downloaded on 2017-12-08 from \href{http://www.who.int/fctc/reporting/additional-questions_2016_EN.pdf?ua=1}{here})
 \item WHO Framework Convention on Tobacco Control
 (Downloaded on 2017-12-08 from \href{http://apps.who.int/iris/bitstream/10665/42811/1/9241591013.pdf?ua=1}{here})
+\item REPORTING INSTRUMENT OF THE WHO FRAMEWORK CONVENTION ON TOBACCO CONTROL
 }
 }
 \section{Reporting on the implementation of the Convention (extract from the website)}{
@@ -25,7 +34,7 @@ the Convention.
 The objective of reporting is to enable Parties to learn from each others’
 experience in implementing the WHO FCTC. Parties' reports are also the basis
 for reviews by the COP of progress in implementation of the Convention
-internationally.[...]
+internationally. [...]
 }
 
 \references{

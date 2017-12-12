@@ -4,7 +4,13 @@
 \name{art06}
 \alias{art06}
 \title{Article 6}
-\format{A dataset with 8619 rows and 4 columns.}
+\format{A dataset with 8619 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art06
 }
@@ -12,7 +18,7 @@ art06
 Article 6
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 2.3.1 - Existence of information on tobacco-related mortality (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5528}{website})
 \item 2.3.3 - Additional information on tobacco-related mortality (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5530}{website})

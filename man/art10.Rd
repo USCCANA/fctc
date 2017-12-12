@@ -4,7 +4,13 @@
 \name{art10}
 \alias{art10}
 \title{Article 10}
-\format{A dataset with 4056 rows and 4 columns.}
+\format{A dataset with 4056 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art10
 }
@@ -12,7 +18,7 @@ art10
 Article 10
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 3.2.4.1 - Requiring disclosure of information about the contents of tobacco products (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5043}{website})
 \item 3.2.4.1 - Requiring disclosure of information about the emissions of tobacco products (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5044}{website})

@@ -4,7 +4,13 @@
 \name{art11}
 \alias{art11}
 \title{Article 11}
-\format{A dataset with 9633 rows and 4 columns.}
+\format{A dataset with 9633 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art11
 }
@@ -12,7 +18,7 @@ art11
 Article 11
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 3.2.5.1 - Packaging of tobacco products does not carry advertisement or promotion (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5575}{website})
 \item 3.2.5.2 - Misleading descriptors (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=4434}{website})

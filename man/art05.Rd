@@ -4,7 +4,13 @@
 \name{art05}
 \alias{art05}
 \title{Article 5}
-\format{A dataset with 8619 rows and 4 columns.}
+\format{A dataset with 8619 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art05
 }
@@ -12,7 +18,7 @@ art05
 Article 5
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 3.1.1.1 - Comprehensive multisectoral national tobacco control strategy (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5048}{website})
 \item 3.1.1.2 - Tobacco control included in national health strategies (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5049}{website})

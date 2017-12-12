@@ -3,16 +3,22 @@
 \docType{data}
 \name{art02_and_26_other_questions_related_to_assistance}
 \alias{art02_and_26_other_questions_related_to_assistance}
-\title{Article 2_and_26_other_questions_related_to_assistance}
-\format{A dataset with 2535 rows and 4 columns.}
+\title{Article 2 And 26 Other Questions Related To Assistance}
+\format{A dataset with 2535 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art02_and_26_other_questions_related_to_assistance
 }
 \description{
-Article 2_and_26_other_questions_related_to_assistance
+Article 2 And 26 Other Questions Related To Assistance
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 4.7 - Identify the Party or Parties (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=4729}{website})
 \item 4.8 - Information about assistance (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5847}{website})

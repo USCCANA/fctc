@@ -4,7 +4,13 @@
 \name{art17}
 \alias{art17}
 \title{Article 17}
-\format{A dataset with 4056 rows and 4 columns.}
+\format{A dataset with 4056 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art17
 }
@@ -12,7 +18,7 @@ art17
 Article 17
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 2.7.1 - Tobacco growing in your jurisdiction (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5541}{website})
 \item 2.7.2 - Number of workers (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5542}{website})

@@ -3,16 +3,22 @@
 \docType{data}
 \name{art02_and_26_assistance_provided}
 \alias{art02_and_26_assistance_provided}
-\title{Article 2_and_26_assistance_provided}
-\format{A dataset with 3042 rows and 4 columns.}
+\title{Article 2 And 26 Assistance Provided}
+\format{A dataset with 3042 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art02_and_26_assistance_provided
 }
 \description{
-Article 2_and_26_assistance_provided
+Article 2 And 26 Assistance Provided
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 4.1 - On transfer of skills and technology (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=4710}{website})
 \item 4.2 - Expertise for tobacco control programmes (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=4713}{website})

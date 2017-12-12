@@ -4,7 +4,13 @@
 \name{art14}
 \alias{art14}
 \title{Article 14}
-\format{A dataset with 26871 rows and 4 columns.}
+\format{A dataset with 26871 rows and 4 columns.
+\describe{
+\item{party}{Character scalar. Name of the party member.}
+\item{answer}{Character scalar. Response to the item.}
+\item{year}{Integer scalar. Year of the report.}
+\item{section}{Character scalar. Number and description of the section}
+}}
 \usage{
 art14
 }
@@ -12,7 +18,7 @@ art14
 Article 14
 }
 \details{
-This article includes the following sections:
+This article includes the following sections of the \link[=fctc-reporting]{Reporting Instrument}:
 \itemize{
 \item 3.2.8.1 - Evidence-based comprehensive and integrated guidelines developed (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5726}{website})
 \item 3.2.8.2.a - Implemented media campaigns to promote tobacco cessation (\href{http://apps.who.int/fctc/implementation/database/sites/implementation/scripts/src/tabulardata.php?indicator=5727}{website})
